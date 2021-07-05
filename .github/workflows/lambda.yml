@@ -35,4 +35,4 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         uses: montudor/action-zip@v0.1.0
         with:
-          args: zip -qq -r ./dist/lambda.zip dist node_modules package.json
+          args: zip -qq -r lambda-${{ github.run_number }}.zip dist node_modules package.json
