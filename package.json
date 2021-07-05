@@ -1,17 +1,16 @@
 {
   "name": "typescript-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "Template for creating typescript lambda functions",
   "main": "index.js",
   "scripts": {
-    "prebuild": "npm cit",
     "build": "tsc",
     "pretest": "eslint --ignore-path .gitignore .",
     "test": "jest"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "PreviewMe Limited",
+  "license": "MIT",
   "dependencies": {
     "@types/aws-lambda": "8.10.77",
     "aws-lambda": "1.0.6"

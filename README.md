@@ -2,6 +2,14 @@
 
 This is a template repository for creating typescript lambda projects.
 
+After cloning this template, ensure that the appropriate sections of package.json are updated. We recommend modifying
+the following fields as a minimum to suit your project.
+
+* name
+* version
+* description
+* license
+
 ## Build
 
 To build the lambda function run the following.
