@@ -62,4 +62,4 @@ jobs:
           mention: here
           if_mention: failure,cancelled
         env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_ }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
