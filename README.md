@@ -1,4 +1,5 @@
 # typescript-lambda
+[![lambda](https://github.com/previewme/lambda-typescript/actions/workflows/lambda.yml/badge.svg)](https://github.com/previewme/lambda-typescript/actions/workflows/lambda.yml)
 
 This is a template repository for creating typescript lambda projects.
 
