@@ -110,6 +110,12 @@ jobs:
           name: reports
           path: reports
 
+      - shell: bash
+        run: |
+          ls -ltr
+          ls -ltr reports
+          cat reports/test-report.xml
+
       - name: SonarCloud Scan
         if: always()
         uses: SonarSource/sonarcloud-github-action@v1.6
