@@ -108,6 +108,7 @@ jobs:
         uses: actions/download-artifact@v2.0.10
         with:
           name: reports
+          path: reports
 
       - name: SonarCloud Scan
         if: always()
