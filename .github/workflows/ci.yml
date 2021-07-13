@@ -93,7 +93,7 @@ jobs:
       - name: Release package to S3
         if: ${{ github.ref == 'refs/heads/main' }}
         run: |
-          aws s3 cp dist/${{ github.event.repository.name }}-${{ github.run_number }}.zip s3://artefact-s3-bucket-by6ogp3a7rbv/${{ github.event.repository.name }}/${{ github.event.repository.name }}-${{ github.run_number }}.zip
+          aws s3 cp dist/${{ github.event.repository.name }}-${{ github.run_number }}.zip s3://${{ secrets.ARTEFACT_BUCKET }}/${{ github.event.repository.name }}/${{ github.event.repository.name }}-${{ github.run_number }}.zip
 
   sonarcloud:
     needs: test
