@@ -1,6 +1,9 @@
 # typescript-lambda
 
 [![lambda](https://github.com/previewme/lambda-typescript/actions/workflows/lambda.yml/badge.svg)](https://github.com/previewme/lambda-typescript/actions/workflows/lambda.yml)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=previewme_lambda-typescript&metric=coverage)](https://sonarcloud.io/dashboard?id=previewme_lambda-typescript)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=previewme_lambda-typescript&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=previewme_lambda-typescript)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=previewme_lambda-typescript&metric=alert_status)](https://sonarcloud.io/dashboard?id=previewme_lambda-typescript)
 
 This is a template repository for creating typescript lambda projects.
 
