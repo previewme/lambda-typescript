@@ -6,6 +6,7 @@ export default async (): Promise<Config.InitialOptions> => {
         preset: 'ts-jest',
         testEnvironment: 'node',
         collectCoverage: true,
-        testResultsProcessor: 'jest-sonar-reporter'
+        testResultsProcessor: 'jest-sonar-reporter',
+        coverageDirectory: 'reports/coverage'
     };
 };

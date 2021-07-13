@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "pretest": "eslint -f json -o eslint-report.json --ignore-path .gitignore .",
+    "pretest": "eslint -f json -o reports/eslint-report.json --ignore-path .gitignore .",
     "test": "jest"
   },
   "keywords": [],
   "author": "PreviewMe Limited",
   "license": "MIT",
+  "jestSonar": {
+    "reportPath": "reports"
+  },
   "dependencies": {
     "@types/aws-lambda": "8.10.77",
     "aws-lambda": "1.0.6"
