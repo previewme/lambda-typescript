@@ -137,7 +137,7 @@ jobs:
         with:
           status: ${{ env.WORKFLOW_CONCLUSION }}
           author_name: GitHub Action
-          fields: repo,commit,message,author,workflow,took
+          fields: repo,commit,message,author
           mention: here
           if_mention: failure,cancelled
         env:
