@@ -1,15 +1,25 @@
 # typescript-lambda
+
 [![lambda](https://github.com/previewme/lambda-typescript/actions/workflows/lambda.yml/badge.svg)](https://github.com/previewme/lambda-typescript/actions/workflows/lambda.yml)
 
 This is a template repository for creating typescript lambda projects.
 
-After cloning this template, ensure that the appropriate sections of package.json are updated. We recommend modifying
-the following fields as a minimum to suit your project.
+After cloning this template, The following files need to be modified to suit your project.
+
+### package.json
 
 * name
 * version
 * description
 * license
+
+### sonar-project.properties
+
+* sonar.projectKey
+* sonar.links.homepage
+* sonar.links.ci
+* sonar.links.scm
+* sonar.links.issue
 
 ## Build
 
