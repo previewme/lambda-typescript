@@ -7,8 +7,10 @@
 
 This is a template repository for creating typescript lambda projects.
 
-After cloning this template, The following files need to be modified to suit your project.
+After cloning this template, the following steps need to be carried out:
 
+1. Add the project to sonarcloud.
+2. The following files need to be modified to suit your project. 
 ### package.json
 
 * name
