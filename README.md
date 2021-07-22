@@ -17,6 +17,7 @@ After cloning this template, the following steps need to be carried out:
 
 * name
 * version
+* repository  
 * description
 * license
 
