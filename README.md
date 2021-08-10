@@ -35,7 +35,7 @@ To build the lambda function run the following.
 
 ```
 npm install
-npm build
+npm run build
 ```
 
 ## Test
